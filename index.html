@@ -1,39 +1,13 @@
 <!doctype html>
-<html lang="pt-PT">
+<html lang="pt">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta name="theme-color" content="#10121e" />
-    <meta
-      name="description"
-      content="Gravity Shift — um botão, duas gravidades. Sobrevive o máximo possível."
-    />
-    <title>Gravity Shift</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Gravidade</title>
   </head>
-
   <body>
-    <main class="app">
-      <header class="header">
-        <h1>GRAVITY SHIFT</h1>
-        <p>Um botão. Duas gravidades.</p>
-      </header>
-
-      <section class="game-panel">
-        <div id="game-container"></div>
-      </section>
-
-      <button id="action-button" type="button">INVERTER GRAVIDADE</button>
-
-      <footer>
-        <p>
-          Usa Espaço ou o botão para inverter a gravidade. Evita os obstáculos e
-          percorre a maior distância possível.
-        </p>
-      </footer>
-    </main>
+    <!-- Este ID tem de existir para o Phaser injetar o jogo lá dentro -->
+    <div id="game-container"></div>
 
     <script type="module" src="/src/main.ts"></script>
   </body>
